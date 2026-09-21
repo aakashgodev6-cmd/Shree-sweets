@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Sweets</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #fff8f0;
+        color: #333;
+    }
+
+    header {
+        background: #8b0000;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 25px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    h2 {
+        color: #8b0000;
+    }
+
+    .sweet {
+        background: white;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+
+    .contact {
+        background: #ffe4c4;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .sweet strong {
+    display: block;
+    margin-top: 12px;
+    font-size: 20px;
+    color: #8b0000;
+}
+    .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 5px 0 0;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.call-btn {
+    background: #8b0000;
+    color: white;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+}
+   nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+} 
+    #diwali {
+    text-align: center;
+}
+
+#diwali .sweet {
+    max-width: 400px;
+    margin: 20px auto;
+}
+    #reviews {
+    text-align: center;
+}
+
+.review {
+    background: white;
+    padding: 18px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.review strong {
+    color: #8b0000;
+}
+    .map-btn {
+    background: #333;
+    color: white;
+}
+    footer {
+    background: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
+footer h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+    @media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        padding: 20px 15px;
+    }
+
+    .sweet img {
+        height: 180px;
+    }
+
+    .about-box {
+        flex-direction: column;
+    }
+
+    .btn {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+    html {
+    scroll-behavior: smooth;
+}
+    .sweet {
+    transition: 0.3s;
+}
+
+.sweet:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+    .sweet {
+    transition: 0.3s;
+}
+
+@media (min-width: 601px) {
+    #sweets {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    #sweets h2 {
+        grid-column: 1 / -1;
+    }
+}
+    #why-us {
+    text-align: center;
+}
+
+.why-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.why-box div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.why-box h3 {
+    color: #8b0000;
+}
+
+@media (max-width: 600px) {
+    .why-box {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+ <header id="home">
+    <h1>🍬 Shree Sweets</h1>
+    <p>Fresh & Delicious Sweets for Every Celebration</p>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#sweets">Sweets</a>
+    <a href="#about">About</a>
+    <a href="#diwali">Diwali</a>
+    <a href="#why-us">Why Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+</header> 
+  
+<section id="sweets">
+    <h2>🍭 Our Special Sweets</h2>
+<div class="sweet">
+
+    <img src="kaju-katli.jpg" alt="Kaju Katli" height="550">
+
+    <h3>Kaju Katli</h3>
+
+    <p>Delicious and fresh Kaju Katli.</p>
+<strong> 400/kg </strong>
+  <a href="https://wa.me/919876543210?text=Hello%2C%20I%20want%20to%20order%20Kaju%20Katli."
+   class="btn whatsapp-btn">
+    💬 Order Now
+</a>
+</div>
+
+
+<div class="sweet">
+
+    <img src="gulab-jamun.jpg" alt="Gulab Jamun">
+
+    <h3>Gulab Jamun</h3>
+
+    <p>Soft, juicy and freshly prepared.</p>
+<strong>500/kg</strong>
+  <a href="https://wa.me/919876543210?text=Hello%2C%20I%20want%20to%20order%20Gulab%20Jamun."
+   class="btn whatsapp-btn">
+    💬 Order Now
+</a>
+</div>
+
+
+<div class="sweet">
+
+    <img src="Motichoor-ladoo.jpg" alt="Motichoor Ladoo" height="350">
+
+    <h3>Motichoor Ladoo</h3>
+
+    <p>Traditional and tasty Motichoor Ladoo.</p>
+<strong>400/kg</strong>
+  <a href="https://wa.me/919876543210?text=Hello%2C%20I%20want%20to%20order%20Motichoor%20Ladoo."
+   class="btn whatsapp-btn">
+    💬 Order Now
+</a>
+</div>
+
+
+<div class="sweet">
+
+    <img src="rasgulla.jpg" alt="Rasgulla" height="550px">
+
+    <h3>Rasgulla</h3>
+
+    <p>Soft and delicious Rasgulla.</p>
+<strong>500/kg</strong>
+  <a href="https://wa.me/919876543210?text=Hello%2C%20I%20want%20to%20order%20Rasgulla."
+   class="btn whatsapp-btn">
+    💬 Order Now
+</a>
+</div>
+ 
+</section>
+<section class="about" id="about">
+
+    <h2>🍬 About Shree Sweets</h2>
+
+    <p>
+        Welcome to Shree Sweets, where every sweet is made
+        with love, quality ingredients and traditional taste.
+    </p>
+
+    <p>
+        We offer a variety of fresh and delicious sweets
+        for festivals, celebrations and special occasions.
+    </p>
+
+    <div class="about-box">
+
+        <div>
+            <h3>✨ Fresh Quality</h3>
+            <p>
+                Freshly prepared sweets with carefully selected
+                ingredients.
+            </p>
+        </div>
+
+        <div>
+            <h3>❤️ Made With Love</h3>
+            <p>
+                We believe every celebration becomes sweeter
+                with delicious sweets.
+            </p>
+        </div>
+
+        <div>
+            <h3>🎁 Perfect For Celebrations</h3>
+            <p>
+                Perfect sweets and gift options for festivals
+                and special occasions.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section id="diwali">
+
+    <h2>🪔 Diwali Special Sweets</h2>
+
+    <div class="sweet">
+
+    <img src="images/diwali-box.jpg" alt="Diwali Gift Box">
+
+    <h3>🎁 Diwali Gift Box</h3>
+
+    <p>
+        Special sweet box for your family and friends.
+    </p>
+
+    <strong>₹599 / Box</strong>
+
+  <a href="https://wa.me/919876543210?text=Hello%2C%20I%20want%20to%20order%20the%20Diwali%20Gift%20Box." 
+   class="btn whatsapp-btn">
+    💬 Order Now
+</a>
+
+</div>
+
+    <div class="sweet">
+        <h3>🍬 Premium Sweet Box</h3>
+        <p>A delicious collection of our special sweets.</p>
+        <strong>₹999 / Box</strong>
+    </div>
+
+</section>
+<section id="why-us">
+
+    <h2>✨ Why Choose Shree Sweets?</h2>
+
+    <div class="why-box">
+
+        <div>
+            <h3>🥛 Quality Ingredients</h3>
+            <p>We use carefully selected ingredients to prepare delicious sweets.</p>
+        </div>
+
+        <div>
+            <h3>🍬 Fresh Every Day</h3>
+            <p>Our sweets are prepared fresh to give you great taste.</p>
+        </div>
+
+        <div>
+            <h3>🎁 Gift Packing</h3>
+            <p>Special packing options are available for festivals and celebrations.</p>
+        </div>
+
+        <div>
+            <h3>😊 Customer Satisfaction</h3>
+            <p>We focus on quality, taste and a pleasant customer experience.</p>
+        </div>
+
+    </div>
+
+</section>
+  <section id="reviews">
+
+    <h2>⭐ Customer Reviews</h2>
+
+    <div class="review">
+        <p>“Very fresh and delicious sweets. Loved the taste!”</p>
+        <strong>— Rahul</strong>
+    </div>
+
+    <div class="review">
+        <p>“The sweets were fresh and nicely packed.”</p>
+        <strong>— Priya</strong>
+    </div>
+
+    <div class="review">
+        <p>“Good quality and great service.”</p>
+        <strong>— Aman</strong>
+    </div>
+
+</section>
+<section id="contact">
+    <div class="contact">
+        <h2>📞 Contact Us</h2>
+
+        <p>📱 Phone: 9876543210</p>
+        <p>📍 Location: Your City</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=Your+City"
+   target="_blank"
+   class="btn map-btn">
+    📍 View Location
+</a>
+
+        <a href="tel:+919876543210" class="btn call-btn">
+    📞 Call Now
+</a>
+
+<a href="https://wa.me/919876543210" class="btn whatsapp-btn">
+    💬 WhatsApp Us
+</a>
+    
+    </div>
+</section>
+  <footer>
+
+    <h3>🍬 Shree Sweets</h3>
+
+    <p>Fresh & Delicious Sweets for Every Celebration</p>
+
+    <p>© 2026 Shree Sweets. All Rights Reserved.</p>
+
+</footer>
+
+</>
+</body>
+</html>
